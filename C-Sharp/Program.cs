@@ -44,10 +44,39 @@
             Console.Write("Enter your age:");
             age1 = int.Parse(Console.ReadLine());   
             Console.WriteLine(age1);
-            Console.ReadLine() ;    
+            Console.ReadLine() ;   
+            
+
+            int i = 10, j = 20;
+            if (i < j)
+            {
+                Console.WriteLine("i is less than j");
+            }
+
+            if (i > j)
+            {
+                Console.WriteLine("j is less than i");
+            }
+
+            int a = 10,b = 20;
+
+            if (isGreater(a, b))
+            {
+                Console.WriteLine("a is less than b");
+            }
+
+            if (isGreater(a, b))
+            {
+                Console.WriteLine("b is greater than a");
+            }
         }
+
+        static bool isGreater(int a, int b)
+        {
+            return a > b;
+        }
+    }
 
 }
 
    
-}
