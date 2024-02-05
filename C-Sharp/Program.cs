@@ -11,7 +11,8 @@
             string fullName = firstName + " " + lastName;
             Console.WriteLine(fullName);
             int p = 30, q = 40;
-
+            //C# includes a decision-making operator ?: which is called the conditional operator or ternary operator.
+            //ternary operator starts with a boolean condition
             var result = p < q ? "p is less than q" : "q is less than p";
             Console.WriteLine(result);
 
@@ -79,8 +80,7 @@
         {
             return a > b;
         }
-        //C# includes a decision-making operator ?: which is called the conditional operator or ternary operator.
-        //ternary operator starts with a boolean condition
+        
         
 
     }
