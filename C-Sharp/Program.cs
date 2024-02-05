@@ -62,25 +62,20 @@
             {
                 Console.WriteLine("j is less than i");
             }
-            Console.ReadLine();
-            int a = 10, b = 20;
+            int age2, money;
+            Console.Write("Please enter your Age:");
+            age2 = int.Parse(Console.ReadLine());
+            Console.Write("Please enter money:");
+            money = int.Parse(Console.ReadLine());
 
-            if (isGreater(a, b))
+            if (age2 > 10)
             {
-                Console.WriteLine("a is less than b");
-            }
-
-            if (isGreater(a, b))
-            {
-                Console.WriteLine("b is greater than a");
+                if (money > 20)
+                {
+                    Console.WriteLine("Welcome to my shop");
+                }
             }
         }
-
-        static bool isGreater(int a, int b)
-        {
-            return a > b;
-        }
-        
         
 
     }
