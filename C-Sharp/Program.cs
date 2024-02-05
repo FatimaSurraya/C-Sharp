@@ -10,8 +10,11 @@
             string lastName = "Surraya";
             string fullName = firstName + " " + lastName;
             Console.WriteLine(fullName);
+            int p = 30, q = 40;
 
-            
+            var result = p < q ? "p is less than q" : "q is less than p";
+            Console.WriteLine(result);
+
             // Variables
             int age = 23;
             // age = age + 1;
@@ -35,18 +38,19 @@
             string f;
             Console.Write("Please Enter Your Name:");
             f = Console.ReadLine();
-           
+
             Console.WriteLine("n = {0}", f);
             Console.ReadLine();
             //Converting string to int (Because Arithematic operatioons are not performed on string (e.g string 10 + 10 = 10 10 not 20))
 
             int age1;
             Console.Write("Enter your age:");
-            age1 = int.Parse(Console.ReadLine());   
+            age1 = int.Parse(Console.ReadLine());
             Console.WriteLine(age1);
-            Console.ReadLine() ;   
-            
+            Console.ReadLine();
 
+            Console.WriteLine("If Conition");
+            Console.ReadLine();
             int i = 10, j = 20;
             if (i < j)
             {
@@ -57,8 +61,8 @@
             {
                 Console.WriteLine("j is less than i");
             }
-
-            int a = 10,b = 20;
+            Console.ReadLine();
+            int a = 10, b = 20;
 
             if (isGreater(a, b))
             {
@@ -75,8 +79,11 @@
         {
             return a > b;
         }
-    }
+        //C# includes a decision-making operator ?: which is called the conditional operator or ternary operator.
+        //ternary operator starts with a boolean condition
+        
 
+    }
 }
 
    
