@@ -70,7 +70,7 @@
 
             if (age2 > 10)
             {
-                if (money > 20)
+                if (money > 20)   
                 {
                     Console.WriteLine("Welcome to my shop");
                 }
