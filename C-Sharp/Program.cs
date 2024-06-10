@@ -17,7 +17,7 @@
             Console.WriteLine(result);
 
             // Variables
-            int age = 23;
+            int age = 24;
             // age = age + 1;
             age++;
             Console.WriteLine($"Age: {age}");
